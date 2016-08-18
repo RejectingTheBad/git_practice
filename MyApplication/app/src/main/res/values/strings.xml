@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- 读写磁卡 -->
+    <string name="tv_title_magcard">磁卡</string>
+    <string name="tv_magcard_tips">请插入磁卡…</string>
+    <string name="btn_magcard_reset">复位</string>
+    <string name="btn_magcard_read">读磁卡</string>
+    <string name="btn_magcard_write">写磁卡</string>
+    <string name="tv_track1">磁道1:\n%1$s\n</string>
+    <string name="tv_track2">磁道2:\n%1$s\n</string>
+    <string name="tv_track3">磁道3:\n%1$s\n</string>
+    <string name="retry">重试</string>
+    <string name="error">错误</string>
+    <string name="tips_read_error">读取过程发生错误!</string>
+    <string name="length_too_short">输入的长度不够!</string>
+    <string name="tips_write_succeed">写入成功!</string>
+    <string name="tips_write_failed">写入过程发生错误!</string>
+    <string name="tips_reset_succeed">复位成功</string>
+    <string name="tips_reset_failed">复位失败</string>
+    <!-- 读写IC卡 -->
+    <string name="tv_title_iccard">IC卡</string>
+    <string name="tv_iccard_tips">请插入IC卡…</string>
+    <string name="btn_iccard_reset">复位</string>
+    <string name="btn_iccard_open">扫描IC卡</string>
+    <string name="btn_iccard_close">停止扫描</string>
+    <string name="btn_iccard_read">读IC卡</string>
+    <string name="btn_iccard_write">写IC卡</string>
+    <string name="dialog_iccard_title">请输入密码(剩余%1$d次)</string>
+    <string name="tv_pwd">密码(剩余%1$d)</string>
+    <string name="iccard_locked">此卡已锁死!</string>
+    <string name="iccard_pass_wrong">密码错误!</string>
+
+    <!-- ActionBarDrawerToggle -->
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <!-- Toolbar menu -->
+    <string name="settings">设置</string>
+    <string name="menu_setting">设置</string>
+
+    <!-- 磁卡菜单 -->
+    <string name="enable_track1">读磁道1</string>
+    <string name="enable_track2">读磁道2</string>
+    <string name="enable_track3">读磁道3</string>
+    <string name="offset">偏移</string>
+    <string name="len">长度</string>
+    <string name="write_track3_text">内容(剩余%1$d)</string>
+    <string name="edittext_hint">在此处输入内容</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+
+</resources>

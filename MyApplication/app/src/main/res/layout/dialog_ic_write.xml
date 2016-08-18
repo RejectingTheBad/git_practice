@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <NumberPicker
+            android:id="@+id/dialog_write_ic_len"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/textView_len"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/dialog_write_ic_len"
+            android:text="@string/len" />
+
+        <NumberPicker
+            android:id="@+id/dialog_write_ic_offset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/textView_len" />
+
+        <TextView
+            android:id="@+id/textView_offset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/dialog_write_ic_offset"
+            android:text="@string/offset" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dialog_write_ic_textView_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_track3_text" />
+
+    <EditText
+        android:id="@+id/dialog_write_ic_editText_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/edittext_hint"
+        android:inputType="textMultiLine"
+        android:labelFor="@id/dialog_write_ic_editText_content"
+        android:textColorHint="#b6b6b6" />
+
+</LinearLayout>

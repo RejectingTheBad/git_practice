@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="64dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_magcard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/tv_magcard_tips" />
+
+
+    <Button
+        android:id="@+id/btn_magcard_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:onClick="magCardRead"
+        android:text="@string/btn_magcard_read" />
+
+    <Button
+        android:id="@+id/btn_magcard_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:onClick="magCardWrite"
+        android:text="@string/btn_magcard_write" />
+
+    <Button
+        android:id="@+id/btn_magcard_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:onClick="magCardReset"
+        android:text="@string/btn_magcard_reset" />
+</LinearLayout>
